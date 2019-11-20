@@ -17,6 +17,11 @@
     width: 100%;
     border-radius: 2px;
     border: 8px #F1F1F1 solid;
+    box-shadow: 1px 1px #000,
+    2px 2px #000,
+    3px 3px #000,
+    4px 4px #000,
+    5px 5px #000;
 }
 .designs div:nth-child(1n+1){
     padding-top: 15px;
@@ -69,7 +74,7 @@
 .barba{
     height: 200px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .barba-last h2{
@@ -79,6 +84,7 @@
     font-size: 1.6rem;
     font-weight: 700;
     text-align: center;
+    /* padding-bottom: 500px; */
 }
 .barba h1{
     font-family: 'Playfair Display', serif;
@@ -86,6 +92,7 @@
     font-size: 4rem;
     text-align: center;
     font-weight: 700;
+
 }
 /* flex first */
 .eslider-header{

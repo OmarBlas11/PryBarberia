@@ -130,13 +130,6 @@ li {
     padding-left: 10px;
 }
 /* header  */
-.contedor-header{
-    /* background-color: #0f161b; */
-    background-color: #F4375C
-}
-.contenedor-two{
-    width: 1200px;
-}
 .contenedor{
     display: flex;
 	justify-content: space-between;
@@ -172,10 +165,10 @@ li {
 }
 .menu-nav .menu-ul li a{
     font-family: 'Playfair Display', serif;
-    /* font-style: italic; */
+    font-style: italic;
     font-size: 1.4rem;
     color: #bc9668;
-    border-bottom: 2px #bc9668 solid;
+    border-bottom: 1px #bc9668 solid;
     
 }
 /* .contenedor div{
@@ -195,13 +188,23 @@ li {
 	margin: 0;
 	display: flex;
 }
+.log{
+    width: 165px;
+}
 .logo{
-    background-color: tomato;
+    /* background-color: blue; */
     text-align: center;
-    width: 170px;
+    width: 165px;
     font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
     line-height: 38px;
     color: #bc9668;
+    text-shadow: 1px 1px #F1F1F1,
+    2px 2px #F1F1F1,
+    3px 3px #F1F1F1,
+    4px 4px #F1F1F1,
+    5px 5px #F1F1F1;
 }
 .menu-ul li:not(:last-child){
     margin-right: 30px;
@@ -211,10 +214,6 @@ li {
     background-color: #6e6e6e;
     /* font-size: 30px; */
     font-size: 1.4rem;
-    animation-name: animateMenu;
-    animation-duration: 0.2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
  /* slider-header */
@@ -401,6 +400,11 @@ li {
 .ofertas img{
     position: relative;
     border-radius: 5px;
+    box-shadow: 1px 1px #000,
+    2px 2px #000,
+    3px 3px #000,
+    4px 4px #000,
+    5px 5px #000;
 }
 .ofertas h1{
     width: 200px;
@@ -464,15 +468,23 @@ li {
     16px 16px #0f161b,
     17px 17px #0f161b,
     18px 18px #0f161b,
-    19px 19px #0f161b,
-    20px 20px #0f161b,
-    21px 21px #0f161b,
-    22px 22px #0f161b,
-    23px 23px #0f161b,
-    24px 24px #0f161b;
+    19px 19px #0f161b;
 }
 
 /* opinions-header */
+.opni{
+    height: 250px;
+    text-align: center;
+    padding-top: 90px;
+}
+.opni h2{
+    font-family: 'Playfair Display', serif;
+    margin-top: -115px;
+    color: #0f161b;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
 .op-header{
     background-color: white;
 }
@@ -483,6 +495,14 @@ li {
 }
 .opinions div{
     width: 393.33px;
+}
+.opni h1{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.15)
+    ;
+    font-size: 7rem;
+    text-align: center;
 }
 .opinions p{
     width: 350px;
