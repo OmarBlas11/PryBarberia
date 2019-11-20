@@ -720,7 +720,7 @@ li {
     }
     @media screen and (max-width: 567px){
         .contenedor img{
-            width: 1500px;
+            width: 150px;
         }
         .mapa iframe{
             width: 500px;
