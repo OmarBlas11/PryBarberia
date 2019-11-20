@@ -1,0 +1,219 @@
+
+/* history headr  */
+.history-header{
+    background-color: rgb(221, 218, 214);
+}
+.history{
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.history div{
+    background-color: rgba(0, 0, 0, 0.79);
+    width: 62%;
+    
+}
+.history div p{
+    color: #ffffff;
+    align-items: center;
+    position: static;
+   left: -9rem;
+    top: 25rem;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    padding: 25px 50px 50px;
+    float: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
+
+.history figure{
+    width: 35%;
+    /* flex-direction: column; */
+}
+.history div h1{
+    font-family: 'Playfair Display', serif;
+    color: #bc9668;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    font-weight: 700;
+    padding: 0px 50px;;
+    
+}
+/* mission */
+.mission-header{
+    background-color: #111213;
+}
+.mission{
+    display: flex;
+    height: 650px;
+    align-items: center;
+    justify-content: space-between;
+}
+.mission div{
+    background-color: rgba(0, 0, 0, 0.79);
+    width: 50%;
+    border-radius: 8px;
+    
+}
+
+.mission div p{
+    /* font-family: 'Playfair Display', serif; */
+    font-style: normal;
+    color: #ffffff;;
+    align-items: center;
+    position: static;
+   left: -9rem;
+    top: 25rem;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    padding: 25px 50px 50px;
+    float: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
+.mission figure {
+    width: 45%;
+}
+.mission figure img{
+    border-radius: 5px;
+}
+.mission div h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #bc9668;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    font-weight: 700;
+    padding: 0px 50px;;
+    
+}
+/* view-header  */
+.view-header{
+    background-color: rgb(221, 218, 214);
+}
+.view{
+    display: flex;
+    height: 650px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.view div{
+    background-color: rgba(0, 0, 0, 0.79);
+    width: 50%;
+    border-radius: 8px;
+    
+}
+
+.view div p{
+    /* font-family: 'Playfair Display', serif; */
+    font-style: normal;
+    color: #ffffff;
+    align-items: center;
+    position: static;
+   left: -9rem;
+    top: 25rem;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    padding: 25px 50px 50px;
+    float: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
+.view figure{
+    width: 45%;
+}
+.view figure img{
+    border-radius: 5px;
+}
+.view div h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #bc9668;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    font-weight: 700;
+    padding: 0px 50px;;
+    
+}
+@media screen and (max-width: 870px){
+    .history{
+        height: 1100px;
+        flex-direction: column;
+        justify-content: space-around;
+        /* text-align: center; */
+    }
+    .history div{
+        width: 100%;
+    }
+    .history figure{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .history img:nth-child(2){
+        margin-left: 95px;
+    }
+    .history  img{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 768px){
+    /* history  */
+    .history div h1{
+        font-size: 2rem;
+        margin-bottom: 0.5px;
+    }
+    /* mission  */
+    .mission{
+        height: 750px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .mission div{
+        width: 80%;
+
+    }
+    .mission figure{
+        width: 60%;
+    }
+    /* view  */
+    .view{
+        height: 750px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .view div{
+        width: 80%;
+
+    }
+    .view figure{
+        width: 60%;
+    }
+    @media screen and (max-width: 686px){
+        .history{
+            height: 1300px;
+        }
+        .history img:nth-child(2){
+            margin-left: 20px;
+        }
+    }
+    @media screen and (max-width: 530px){
+        .history{
+            height: 1400px;
+        }
+    }
+}
