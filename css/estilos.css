@@ -189,13 +189,16 @@ li {
     left: 2.3rem;
     top: 27px;
     max-width: none;
-    width: 260px;
+        
 }
 .menu-ul{
 	margin: 0;
 	display: flex;
 }
 .logo{
+    background-color: tomato;
+    text-align: center;
+    width: 170px;
     font-family: 'Playfair Display', serif;
     line-height: 38px;
     color: #bc9668;
@@ -719,11 +722,19 @@ li {
         }
     }
     @media screen and (max-width: 567px){
-        .contenedor img{
-            width: 150px;
-        }
+        
         .mapa iframe{
             width: 500px;
+        }
+        
+    }
+    @media screen and (max-width: 450px){
+        
+        .contenedor img{
+            width: 50px;
+        }
+        .mapa iframe{
+            width: 300px;
         }
         
     }
