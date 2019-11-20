@@ -719,13 +719,18 @@ li {
         }
     }
     @media screen and (max-width: 567px){
+        .contenedor img{
+            width: 1500px;
+        }
         .mapa iframe{
             width: 500px;
         }
         
     }
     @media screen and (max-width: 608px){
-        
+        .contenedor img{
+            width: 200px;
+        }
         /* description  */
         .description-last{
             box-shadow:
