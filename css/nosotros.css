@@ -218,6 +218,11 @@
         width: 60%;
     }
 }
+@media screen and (max-width: 580px){
+    .history div{
+        font-size: 15px;
+    }
+}
 @media screen and (max-width: 542px){
     .history{
         height: 1250px;
