@@ -436,11 +436,12 @@ li {
 /* comments-header */
 .comments-header{
     background-color:  #252422;
+    /* background-color: chartreuse; */
 }
 .comments{
-    height: 250px;
+    height: 100px;
     text-align: center;
-    padding-top: 90px;
+    padding-top: 50px;
 }
 
 .comments-last h2{
@@ -455,7 +456,7 @@ li {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     color: white;
-    font-size: 7rem;
+    font-size: 6rem;
     text-align: center;
     text-shadow:
     1px 1px #0f161b,
@@ -644,7 +645,7 @@ li {
 @media screen and (max-width: 768px){
     .menu-nav span{
         position: fixed;
-        bottom: 30px;
+        bottom: 15px;
         right: 15px;
         background-color: #F4583B
     }
@@ -653,6 +654,9 @@ li {
     .contenedor{
         flex-direction: column;
         justify-content: space-around;
+    }
+    .contenedor div{
+        margin-bottom: 15px;
     }
     /* description  */
     .description-last{

@@ -82,7 +82,7 @@ display: none;
   width: 250px;
   height: 100vh;
   background-color: #0f161b;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   transition: 0.45s;
