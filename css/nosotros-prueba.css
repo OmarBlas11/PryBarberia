@@ -1,5 +1,3 @@
-
-/* history headr  */
 .history-header{
     background-color: rgb(221, 218, 214);
 }
@@ -16,7 +14,6 @@
 }
 .history div p{
     color: #ffffff;
-    font-family: 'Playfair Display', serif;
     align-items: center;
     position: static;
    left: -9rem;
@@ -47,32 +44,19 @@
 }
 /* mission */
 .mission-header{
-    background-image: url("https://scontent.flim5-4.fna.fbcdn.net/v/t1.0-9/p720x720/75242030_813175509114770_7047337069768605696_o.jpg?_nc_cat=108&_nc_ohc=quiNnOgICvsAQkVsnw_EzviRH-VYHJkW_zJ6VLSM5GFDRnlTvaZbdbxbQ&_nc_ht=scontent.flim5-4.fna&oh=733b6fe63a20c18ea149e28acf1a22dc&oe=5E4945E5");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
-.mission-header:before{
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #111213;
 }
 .mission{
     display: flex;
-    height: 500px;
+    height: 650px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .mission div{
+    background-color: rgba(0, 0, 0, 0.79);
     width: 50%;
-    max-width: 100%;
     border-radius: 8px;
-    position: relative;
+    
 }
 
 .mission div p{
@@ -126,6 +110,7 @@
     border-radius: 8px;
     
 }
+
 .view div p{
     /* font-family: 'Playfair Display', serif; */
     font-style: normal;
@@ -142,10 +127,11 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
 }
-.view figure iframe{
-    max-width: 100%;
-    border-radius: 8px;
-    position: relative;
+.view figure{
+    width: 45%;
+}
+.view figure img{
+    border-radius: 5px;
 }
 .view div h1{
     font-family: 'Playfair Display', serif;
@@ -183,8 +169,13 @@
         margin-bottom: 0.5px;
     }
     /* mission  */
+    .mission{
+        height: 750px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
     .mission div{
-        width: 100%;
+        width: 80%;
 
     }
     .mission figure{
@@ -253,20 +244,6 @@
 @media screen and (max-width: 455px){
     .history{
         height: 1450px;
-    }
-    .mission div p{
-        font-family: 'Playfair Display', serif;
-        font-style: normal;
-        
-       left: 0rem;
-        top: 0rem;
-        right: 0px;
-        bottom: 0px;
-        display: block;
-        /* padding: 25px 50px 50px; */
-        /* float: left; */
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
     }
 }
 @media screen and (max-width: 435px){

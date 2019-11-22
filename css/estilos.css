@@ -352,9 +352,7 @@ li {
     color:#F5FAFD;
     
 }
-.description figure img{
-    height: 400px;
-    width: 350px;
+.description figure iframe{
     border-radius: 15px;
 }
 .description-last{
@@ -630,7 +628,7 @@ li {
     display: none;
 }
 /* responsive del para mobiles  */
-@media screen and (max-width:1045px){
+@media screen and (max-width: 1045px){
     .logo{
         width: 270px;
         font-size: 2rem;
@@ -640,6 +638,22 @@ li {
     }
     .menu-nav ul{
         display: none;
+    }
+}
+@media screen and (max-width: 1000px){
+    .description-header{
+        background-color: #F4375C;
+    }
+    .description{
+        padding-top: 50px;
+        padding-bottom: -150px;
+        height: 800px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .description div{
+        width: 500px;
+        max-width: 90%;
     }
 }
 @media screen and (max-width: 768px){
@@ -668,14 +682,9 @@ li {
         400px 0 red inset,
         500px 0 blue inset;  
     }
-    .description figure img{
-        height: 350px;
-        width: 300px;
-        max-width: 100%;
-        border-radius: 10px;
-    }
     .description div{
-        width: 300px;
+        width: 500px;
+        max-width: 90%;
     }
     .description-last h1{
         font-family: 'Playfair Display', serif;
@@ -779,8 +788,6 @@ li {
         .description{
             padding-top: 40px;
             height: 800px;
-            flex-direction: column-reverse;
-            justify-content: space-around;
         }
         .comments{
             height: 90px;
@@ -810,6 +817,15 @@ li {
         
         .mapa iframe{
             width: 500px;
+        }
+        .description figure iframe{
+            max-width: 100%;
+        }
+    }
+    @media screen and (max-width: 545px){
+        
+        .description{
+            height: 650px;
         }
     }
     @media screen and (max-width: 550px){
@@ -893,8 +909,5 @@ li {
             300px 0 red inset,
             350px 0 blue inset,
             400px 0 red inset; 
-        }
-        .description{
-            height: 900px;
         }
     }
