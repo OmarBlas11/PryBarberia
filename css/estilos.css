@@ -342,7 +342,7 @@ li {
     background-color: #252422;
 }
 .description{
-    height: 500px;
+    height: 550px;
     display: flex;
     justify-content: space-around;
 	align-items: center;
@@ -356,18 +356,11 @@ li {
     color:#F5FAFD;
     
 }
-.description figure iframe{
-    border-radius: 15px;
-}
 .description-last{
     text-align: center;
-    box-shadow:
-    0 254px #252422 inset,
-    100px 0 blue inset,
-    200px 0 red inset,
-    300px 0 blue inset,    
-    400px 0 red inset,
-    500px 0 blue inset;  
+    box-shadow: 0 0 0 4px #fff,
+    0 0 0 8px #153165,
+    0 0 0 12px #fff; 
 }
 .description-last p{
     font-family: 'Playfair Display', serif;
@@ -384,7 +377,6 @@ li {
     text-align: center;
     font-weight: 700;
 }
-
 /* ofertas-header */
 .ofertas-header{
     background-color: #252422;;
@@ -647,7 +639,6 @@ li {
 @media screen and (max-width: 1000px){
     .description{
         padding-top: 50px;
-        padding-bottom: -150px;
         height: 800px;
         flex-direction: column;
         justify-content: space-between;
@@ -674,7 +665,7 @@ li {
         margin-bottom: 15px;
     }
     /* description  */
-    .description-last{
+    /* .description-last{
         box-shadow:
         0 400px #252422 inset,
         100px 0 blue inset,
@@ -682,7 +673,7 @@ li {
         300px 0 blue inset,    
         400px 0 red inset,
         500px 0 blue inset;  
-    }
+    } */
     .description div{
         width: 500px;
         max-width: 90%;
@@ -777,7 +768,7 @@ li {
             max-width: 90%;
         }
         /* description  */
-        .description-last{
+        /* .description-last{
             box-shadow:
             0 0px #252422 inset,
             100px 0 blue inset,
@@ -785,10 +776,9 @@ li {
             300px 0 blue inset,    
             400px 0 red inset,
             500px 0 blue inset;  
-        }
+        } */
         .description{
             padding-top: 40px;
-            height: 800px;
         }
         .comments{
             height: 90px;
@@ -823,12 +813,6 @@ li {
             max-width: 100%;
         }
     }
-    @media screen and (max-width: 545px){
-        
-        .description{
-            height: 650px;
-        }
-    }
     @media screen and (max-width: 550px){
         .opni-last h1{
             font-size: 5.5rem;
@@ -844,7 +828,7 @@ li {
     @media screen and (max-width: 526px){
         
         /* description  */
-        .description-last{
+        /* .description-last{
             box-shadow:
             0 459px #252422 inset,
             100px 0 blue inset,
@@ -852,7 +836,7 @@ li {
             300px 0 blue inset,    
             400px 0 red inset,
             500px 0 blue inset;  
-        }
+        } */
     }
     @media screen and (max-width: 520px){
         .ofertas{
@@ -890,6 +874,21 @@ li {
             margin-top: -87px;
         }
     }
+    @media screen and (max-width: 510px){
+        .description figure{
+            height: 250px;
+        }
+        .description{
+            /* padding-top: 90px; */
+            justify-content: space-around;
+            height: 700px;
+        }
+    }
+    @media screen and (max-width: 406px){
+        .description figure{
+            height: 200px;
+        }
+    }
     @media screen and (max-width: 382px){
         .contenedor img{
             width: 200px;
@@ -899,7 +898,7 @@ li {
             max-width: 90%;
         }
         /* description  */
-        .description-last{
+        /* .description-last{
             box-shadow:
             0 0px #252422 inset,
             50px 0 blue inset,
@@ -910,5 +909,5 @@ li {
             300px 0 red inset,
             350px 0 blue inset,
             400px 0 red inset; 
-        }
+        } */
     }
