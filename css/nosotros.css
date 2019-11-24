@@ -178,16 +178,13 @@
     .view{
         padding-top: 10px;
         padding-bottom: 20px;
-        height: 780px;
+        height: 800px;
         flex-direction: column-reverse;
         justify-content: space-between;
     }
     .view div{
         width: 100%;
     }
-}
-.view figure{
-    height: 200px;
 }
 @media screen and (max-width: 768px){
     /* history  */
@@ -235,14 +232,19 @@
         font-size: 15px;
     }
 }
+@media screen and (max-width: 515px){
+    .view figure{
+        background-color: aqua;
+        height: 480px;
+    }
+    .view{
+        height: 900px;
+        justify-content: center;
+    }
+}
 @media screen and (max-width: 542px){
     .history{
         height: 1250px;
-    }
-}
-@media screen and (max-width: 660px){
-    .view{
-        height: 900px;
     }
 }
 @media screen and (max-width: 503px){
@@ -279,11 +281,6 @@
         -webkit-box-direction: normal;
     }
 }
-@media screen and (max-width: 660px){
-    .view{
-        height: 1000px;
-    }
-}
 @media screen and (max-width: 435px){
     .history{
         height: 1550px;
@@ -293,6 +290,11 @@
     .history{
         height: 1650px;
     }
+        .view figure{
+            background-color: aqua;
+            height: 400px;
+        }
+    
 }
 @media screen and (max-width: 391px){
     .history{
