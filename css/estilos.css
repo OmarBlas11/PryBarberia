@@ -641,9 +641,6 @@ li {
     }
 }
 @media screen and (max-width: 1000px){
-    .description-header{
-        background-color: #F4375C;
-    }
     .description{
         padding-top: 50px;
         padding-bottom: -150px;

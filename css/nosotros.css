@@ -175,6 +175,19 @@
     .history img:nth-child(2){
         display: none;
     }
+    .view{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        height: 780px;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .view div{
+        width: 100%;
+    }
+}
+.view figure{
+    height: 200px;
 }
 @media screen and (max-width: 768px){
     /* history  */
@@ -190,19 +203,6 @@
     .mission figure{
         width: 60%;
     }
-    /* view  */
-    .view{
-        height: 750px;
-        flex-direction: column-reverse;
-        justify-content: center;
-    }
-    .view div{
-        width: 80%;
-
-    }
-    .view figure{
-        width: 60%;
-    }
 }
 @media screen and (max-width: 733px){
     .history{
@@ -216,6 +216,11 @@
         .history img:nth-child(2){
             margin-left: 20px;
         }
+}
+@media screen and (max-width: 660px){
+    .view{
+        height: 850px;
+    }
 }
 @media screen and (max-width: 612px){
     .history{
@@ -233,6 +238,11 @@
 @media screen and (max-width: 542px){
     .history{
         height: 1250px;
+    }
+}
+@media screen and (max-width: 660px){
+    .view{
+        height: 900px;
     }
 }
 @media screen and (max-width: 503px){
@@ -267,6 +277,11 @@
         /* float: left; */
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
+    }
+}
+@media screen and (max-width: 660px){
+    .view{
+        height: 1000px;
     }
 }
 @media screen and (max-width: 435px){
