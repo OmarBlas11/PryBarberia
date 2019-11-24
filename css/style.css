@@ -90,7 +90,7 @@ display: none;
 .nav-items {
   flex: 0 0 100%;
 }
-.nav-item:not(:last-child) {
+.nav-item {
   border-bottom: solid 1px #daf9f4;
 }
 .nav-link {
