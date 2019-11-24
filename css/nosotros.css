@@ -234,7 +234,6 @@
 }
 @media screen and (max-width: 515px){
     .view figure{
-        background-color: aqua;
         height: 480px;
     }
     .view{
@@ -291,7 +290,6 @@
         height: 1650px;
     }
         .view figure{
-            background-color: aqua;
             height: 400px;
         }
     
