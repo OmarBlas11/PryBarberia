@@ -95,6 +95,7 @@
     font-weight: 700;
 
 }
+
 /* flex first */
 .eslider-header{
     background-color: rgb(221, 218, 214);
@@ -274,6 +275,18 @@
         .designs div:nth-child(5){
             margin-left: 5px;
         }
+        .contenedor-baerd>div:nth-child(2){
+            max-width: 100%;
+        }
+        .contenedor-baerd div p{
+           left: 0rem;
+            top: 0rem;
+            right: 0px;
+            bottom: 0px;
+            display: block;
+            padding: 15px 0px 0px;
+            
+        }
 }
 
 @media screen and (max-width: 630px){
@@ -306,4 +319,17 @@
         align-items: center;
     } 
 
+}
+@media screen and (max-width: 430px){
+    .barba-last h2{
+        font-size: 1.6rem;
+    }
+    .barba h1{
+        font-size: 3rem;
+    
+    }
+    .barba{
+        height: 150px;
+        padding-top: 10px;
+    }
 }
