@@ -16,7 +16,7 @@ display: none;
   z-index: 101;
   width: 100%;
   height: 100px;
-  background-color: #f9fbfc;
+  background-color: #1f8fc7;
 }
 @media screen and (max-width: 768px){
   .nav-top {
